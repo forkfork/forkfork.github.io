@@ -1,4 +1,6 @@
 window.req = function (path, args) {
+  console.log("path, args");
+  console.log(path, args);
   var on_success = args.on_success;
   var on_fail = args.on_fail;
   var method = args.method || 'GET';
